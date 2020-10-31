@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+
+
+}
+/* header start here */
+header{
+   
+width: 100%;
+   
+padding: 25px 0;
+   
+background: #000;
+   
+box-shadow: 0 8px 6px -12px #01040a;
+}
+.sticky {
+    position: fixed;
+    background: #000;
+    z-index: 9999;
+    top: 0;
+}
+.header_container{
+    width: calc(100% - 150px);
+    margin: auto;
+    display: flex;
+    box-shadow:  box-shadow: 0 8px 6px -6px black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+.logo a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+}
+.logo a strong .red{
+
+color: crimson;
+}
+.logo a strong .dot{
+
+color: crimson;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 0px;
+}
+nav ul li a{
+   font-size: 15px;
+   font-weight: bold;
+   line-height: 25.9px;
+   text-decoration: none;
+   color: #fff;
+   text-transform: uppercase;
+   padding: 10px 20px;
+}
+nav ul li a:hover{
+   
+color: crimson;
+}
+/*=============== header end here ===============*/
+
+/* heading start here */
+.heading{
+    text-align: center;
+    padding-top: 90px;
+}
+.heading span{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #506A85;
+}
+.heading h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    color: #506A85;
+}
+.heading div{
+    width: 150px;
+    margin: auto;
+    height: 2px;
+    background: rgb(80 106 133 / 0.4);
+}
+/* heading end here */
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.banner_left{
+    display: flex;
+}
+.banner_left .content{}
+
+.banner_left .content span{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+.banner_left .content h1{
+    font-size: 61px;
+    font-weight: 800;
+    margin: 25px 0;
+}
+.banner_left .content p{
+    font-size: 18px;
+    width: 71%;
+    color: #506a85;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+.banner_left .content a{
+
+text-decoration: none;
+
+border: 1px solid #506a85;
+
+padding: 12px 35px;
+
+color: #506a85;
+
+font-size: 20px;
+
+text-transform: uppercase;
+
+font-weight: 500;
+
+transition: all 0.3s;
+}
+.banner_left .content a:hover{
+    color: white;
+    border-radius: 5px;
+    background: black;
+}
+.banner_right{width: 100%;}
+.banner_right img{
+   
+}
+/* banner end here */
+
+
+/* newsletter start here */
+.newsletter{
+    width: 100%;
+    background: url('../img/design (3).png');
+    padding: 120px 0;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.newsletter .line{
+    height: 2px;
+    width: 100px;
+    background: white;
+    margin: 30px auto;
+}
+.newsletter h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+}
+.newsletter p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.newsletter button{
+    padding: 12px 40px;
+    color: white;
+    background: transparent;
+    border: none;
+    border: 1px solid white;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.newsletter button:hover{
+    background: #506a85;
+    border-color: #506a85;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    margin-top: 100px;
+}
+.form_left{
+    width: 50%;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form_left .left{
+    padding-right: 20px;
+    margin-bottom: 38px;
+    text-align: left;
+}
+.form_left .left input{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid white;
+}
+.form_left .left input:focus{
+    color: white;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+}
+.form_left .left label{
+   position: absolute;
+}
+.form_right{
+    width: 50%;
+}
+.textarea{
+    padding-left: 20px;
+}
+.textarea textarea{
+    width: 100%;
+    border: none;
+    border: 1px solid white;
+    background: transparent;
+    padding: 10px;
+}
+.textarea textarea:focus{
+    color: white;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+}
+form div{
+    width: 100%;
+}
+/* newsletter end here */
+
+
+
+
+
+
+/*-========== main container start here -==========*/
+.dhaka{
+    padding: 90px 0;
+}
+.container{
+    width: calc(100% - 150px);
+    margin: auto;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+}
+
+.quote{
+        padding: 1rem;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, .3);
+        border-radius: .3em;
+        transition: all 0.6s;
+    }
+.quote:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+}
+    p{
+        margin-top: 0;
+    }
+    h1{
+        font-size: 22px;
+        color: #506A85;
+        margin: 0;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+.quote a{
+        display: block;
+        text-align: center;
+        
+        text-decoration: none;
+    }
+
+    span{
+        position: relative;
+        margin-left: 15px;
+        font-weight: 500;
+        color: #506A85;
+    }
+    span::before{
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 10px;
+        border-bottom: 1px solid #578efe;
+        top: 10px;
+        left: -15px;
+    }
+img{
+    max-width: 100%;
+}
+/*-========== main container start here -==========*/
+
+
+
+/*-========== why me section start here -==========*/
+.why_me{
+
+background: #F5F5F5;
+
+padding: 90px 0;
+}
+.headeing_me{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.headeing_me span{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #506A85;
+}
+.headeing_me h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    color: #506A85;
+}
+.headeing_me .line{
+    width: 150px;
+    background: rgb(80 106 133 / 0.4);
+    height: 2px;
+    margin: auto;
+}
+.whyme_content{
+    text-align: center;
+    margin-top: 35px;
+}
+.whyme_content .icon{
+    color: #506a85;
+    font-size: 64px;
+}
+.whyme_content h2{
+    font-size: 22px;
+    color: #506A85;
+    margin: 15px 0;
+}
+.whyme_content p{
+    font-size: 16px;
+    width: 86%;
+    color: #506a85;
+    margin: auto;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+/*-========== why me section end here -==========*/
+
+
+
+
+/*-========== top footer start here -==========*/
+.top_footer{
+    background: #212529;
+    padding: 70px 0;
+}
+.footer_content{}
+.footer_content h3{
+    font-size: 13px;
+    color: #868e96;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.list{}
+.list ul{}
+.list ul li{
+    list-style: none;
+    margin: 12px 0;
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #dee2e6;
+}
+.list ul li a:hover{
+    color: white;
+}
+.
+/*-========== top footer start here -==========*/
+
+
+
+/* footer start here */
+footer{
+        background: black;
+    padding: 25px 0;
+    margin-top: 60px;
+}
+ .container{
+    width: calc(100% - 150px);
+    margin: auto;
+    display: grid;
+    
+}
+.flogo{
+    width: 40%;
+}
+.flogo a{
+    text-decoration: none;
+    
+}
+.flogo .red{
+    color: crimson;
+}
+.flogo .dot{
+    color: crimson;
+}
+.flogo strong{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00;
+    color: #fff;
+}
+.copyright{
+    text-align: center;
+}
+.copyright p{
+    font-size: 12px;
+    line-height: 20px;
+   color: #868e96;
+}
+.social_link{
+
+}
+.social_link ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.social_link ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.social_link ul li:hover{
+
+}
+.social_link ul li a{
+    text-decoration: none;
+    transition: all 0.4s;
+    color: #506a85;
+    color: #;
+}
+.social_link ul li a:hover{
+    color: #fff;
+}
+.arrowup{
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    width: 30px;
+    height: scroll;
+    height: 30px;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    background: #878787;
+    color: white;
+}
+.arrowup:hover{
+    background: #313131;
+}
+
+/* sign up page css start heere */
+.signup_form_section{
+   height: auto;
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/signup.jpg);
+   background-size:cover;
+   background-position: top;
+   color: white;
+}
+.signup h2{}
+.form2{
+    padding: 80px 0;
+    margin-top: 0;
+    width: 35%;
+    margin: 0 auto;
+}
+.form2 h2{
+    
+font-family: 'Raleway', sans-serif;
+    
+font-weight: 400;
+    
+text-transform: uppercase;
+    
+color: white;
+    
+font-size: 40px;
+    
+width: 100%;
+    
+text-align: center;
+    
+/* font-size: 30px; */
+    
+margin-bottom: 15px;
+}
+.form2 .line2 .line{
+    height: 2px;
+    width: 150px;
+    /* width: 150px; */
+    background: crimson;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.form2 input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    border: 1px solid white;
+    /* color: black; */
+    outline: none;
+    color: white;
+    margin-top: 10px;
+}
+.form2 strong{
+    width: 100%;
+    font-size: 15px;
+    /* display: block; */
+    margin: 20px 0 5px;
+    font-weight: 500;
+}
+.form2 label{
+    font-size: 15px;
+    /* line-height: 1.6; */
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.form2 textarea{
+    width: 100%;
+    /* color: black; */
+    background: transparent;
+    border: none;
+    border: 1px solid white;
+    padding: 8px;
+    color: white;
+    margin: 20px 0 20px;
+    outline: none;
+}
+.form2 textarea:focus{
+    border-color: crimson;
+}
+.form2 input:focus{
+    border-color: crimson;
+}
+.form2 input[type="radio"]{
+    width: auto;
+    margin-right: 5px;
+}
+.form2 input[type="checkbox"]{
+    width: auto;
+    margin-right: 5px;
+}
+.form2 input[type="submit"]{
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.form2 input[type="submit"]:hover{
+    
+background: crimson;
+    
+border: 1px solid crimson;
+}
+.form2 p{margin: auto;font-size: 16px;margin-top: 15px;}
+.form2 p a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.form2 p a:hover{
+    color: crimson;
+}
+/* sign up page css start heere */
+
+
+
+
+/* login page css section start here */
+.login{
+   padding: 60px 0;
+    background: #6b2727;
+}
+.login_form{}
+.login_form .form2{
+    padding: 50px 20px;
+    background: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+}
+.login_form input{
+    border-color: black;
+}
+.login_form h2{
+    color: crimson;
+    font-size: 22px;
+}
+.login_form .form2 input[type="submit"]{
+    background: crimson;
+    border-color: crimson
+}
+.login_form .form2 input[type="submit"]:hover{
+    
+color: black;
+}
+.login_form p{
+}
+.login_form .form2 p a{
+    color: crimson;
+}
+.login_form .form2 p a:hover{
+    color: black;
+}
+/* login page css section start here */
+
+
+
+
+
+
+@media (min-width: 550px){
+        
+
+    }
+
+
+
+
+
+
+
+
+
+
